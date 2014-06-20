@@ -53,13 +53,13 @@
 - **match(type)** - check if the given variable(object or array and other) match the type(object or array and other)
 - **match(pattern [, modifiers])** - check if string matches the pattern. Either `match('Foo', /foo/i)` or `match('Foo', 'foo', 'i')`
 
-````````````````````````````````````````````````````````````````````````````````
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 - **done()** - return `true` or `false`
 - **error()** - if `false`, throw error
 - **toString()** - print the curent variable for debug
 
-````````````````````````````````````````````````````````````````````````````````
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 - **keys()** - get keys from object or array
 - **values()** - get values from object or array
@@ -74,7 +74,7 @@
 - **has(type)** - check if variable has the type
 - **hasnt()** - check if variable hasn't the type
 
-````````````````````````````````````````````````````````````````````````````````
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 - **isEqual(str, comparison)** - check if the string matches the comparison.
 - **isNotEqual(str, comparison)** - check if the string not matches the comparison.
