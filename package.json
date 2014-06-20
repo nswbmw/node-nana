@@ -1,0 +1,35 @@
+{
+  "name": "node-nana",
+  "version": "0.0.1",
+  "description": "node nanananana ~ node nanananana ~",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape ./test/*.js"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "nswbmw",
+    "email": "nswbmw1992@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MangroveTech/node-nana.git"
+  },
+  "homepage": "https://github.com/MangroveTech/node-nana",
+  "keywords" : [
+    "validator",
+    "check",
+    "verify",
+    "underscore",
+    "check-types"
+  ],
+  "dependencies": {
+    "clone": "^0.1.16",
+    "flat": "^1.2.1",
+    "underscore": "^1.6.0",
+    "validator": "^3.16.0"
+  },
+  "devDependencies": {
+    "tape": "*"
+  }
+}
