@@ -64,6 +64,8 @@ NANA.prototype.prev = function prev() {
   var _index = _.indexOf(_parentArg, this._curArgs);
   if (_index > 0) {
     this._curArgs = _parentArg[_index - 1];
+  } else {
+    this.flag = false;
   }
   return this;
 };
@@ -77,6 +79,8 @@ NANA.prototype.next = function next() {
   var _index = _.indexOf(_parentArg, this._curArgs);
   if (_index < this._curArgs.length - 1) {
     this._curArgs = _parentArg[_index + 1];
+  } else {
+    this.flag = false;
   }
   return this;
 };
