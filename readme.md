@@ -7,12 +7,12 @@
 ### Example
 
     var $ = require('nana')({
-      name: 'nswbmw',
-      address: ['nswbmw1992@gmail.com', 'example@gmail.com']
+      name: 'test',
+      address: ['hello@gmail.com', 'example@gmail.com']
     });
 
     $.get('name')
-      .isEqual('nswbmw')
+      .isEqual('test')
       .done()
     // true
 
@@ -24,7 +24,7 @@
 
     $.get('name')
       .parent()
-      .match({name: 'nswbmw', address: ['nswbmw1992@gmail.com', 'example@gmail.com']})
+      .match({name: 'test', address: ['hello@gmail.com', 'example@gmail.com']})
       .done()
     // true
 
@@ -41,9 +41,9 @@
       .parent()
       .parent()
       .toString()
-    // '{"name":"nswbmw","address":["nswbmw1992@gmail.com","example@gmail.com"]}'
+    // '{"name":"test","address":["hello@gmail.com","example@gmail.com"]}'
 
-    $.match({name: /NSWBMW/i, address: /abc@gmail.com/})
+    $.match({name: /TEST/i, address: /abc@gmail.com/})
       .error()
     // Error: Error!
 
